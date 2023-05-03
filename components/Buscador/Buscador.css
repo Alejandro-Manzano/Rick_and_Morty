@@ -1,0 +1,27 @@
+ input {
+    width: 200px;
+    text-align: center;
+   color: #ADD8E6;
+}
+
+a:hover {
+    background-color: black;
+}
+
+button {
+    width: 90px;
+    color: lime;
+}
+
+input, button {
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+@media screen and (max-width: 493px) {
+    input, button {
+        height: 40px;
+    }
+} 

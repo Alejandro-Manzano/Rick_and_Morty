@@ -1,0 +1,43 @@
+footer {
+    height: 13vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h4 {
+    color: black;
+    font-family: "Rick&Morty";
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 25px;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.social-icon {
+    width: 32px;
+    height: 32px;
+}
+
+.social-link:hover {
+    transform: scale(1.4);
+}
+
+@media screen and (max-width: 400px) {
+    h4 {
+        font-size: 25px;
+        font-weight: 270;
+    }
+    .social-icon {
+        width: 27px;
+        height: 27px;
+    }
+}

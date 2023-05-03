@@ -1,0 +1,42 @@
+* {
+    font-family: "Rick&Morty";
+}
+
+img {
+    height: 260px;
+    width: 260px;
+}
+
+.name-conatiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ADD8E6;
+}
+
+.hover-img:hover img {
+    transform: scale(1.02);
+    border-color: lime;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+span {
+    font-weight: 700;
+}
+
+.alive {
+    color: green;
+}
+  
+.dead {
+    color: red;
+}
+  
+.unknown {
+    color: #4169E1 ;
+}
+  

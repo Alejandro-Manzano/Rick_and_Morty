@@ -1,0 +1,25 @@
+.home {
+    height: 78vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h2 {
+
+    font-family: "Rick&Morty";
+    font-size: 50px;
+
+  }
+  
+
+@media screen and (max-width: 775px) {
+    .home > h2 {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 434px) {
+    .home > h2 {
+        font-size: 22px;
+    }
+}

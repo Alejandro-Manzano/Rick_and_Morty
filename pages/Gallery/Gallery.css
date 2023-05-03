@@ -1,0 +1,51 @@
+.Gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 25px;
+}
+
+.search-container {
+    width: 100%;
+    height: 9vh;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    width: 200px;
+    height: 70px;
+    background-color: aquamarine;
+}
+
+.container-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px;
+}
+
+.next {
+    width: 120px;
+    background-color: transparent;
+    border: 4px solid green;
+    color: green;
+}
+
+.back {
+    width: 120px;
+    background-color: transparent;
+    border: 4px solid red;
+    color: red;
+}
+
+@media screen and (max-width: 493px) {
+    .search-container {
+        margin-top: 27px;
+    }
+}

@@ -1,0 +1,32 @@
+body {
+  background: linear-gradient(to bottom, #000000, #262626, #4D4D4D, #737373, #999999, #BFBFBF, #E5E5E5)
+}
+
+:root {
+  -primary-font--color: #00B2CF;
+}
+
+@font-face {
+  font-family: "Rick&Morty";
+  src: url(https://res.cloudinary.com/dtyjzv2xg/raw/upload/v1682580916/shlop_rg_yyo5wj.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  min-height: 70vh;
+
+}
